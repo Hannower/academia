@@ -105,5 +105,36 @@ body {
     }
 }
 
+.home {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 2rem;
 
+    h1 {
+        color: var(--cor-principal);
+        margin-bottom: 1rem;
+    }
+    
+    p {
+        text-align: justify;
+        margin-bottom: 1rem;
+    }
 
+    button {
+        margin-bottom: 1rem;
+        background-color: var(--cor-destaque);
+        border: none;
+        padding: 0.5rem;
+        width: 8rem;
+        border-radius: 20px;
+        transition: 0.5s;
+    }
+    a {
+            color: var(--cor-01);
+            font-weight: bold;
+        }
+    
+    button:hover {
+        cursor: pointer;
+    }
+}       
