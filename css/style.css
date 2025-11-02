@@ -28,3 +28,42 @@ body {
     color: var(--cor-01);
 }
 
+.cabecalho {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--cor-05);
+    height: 3.5rem;
+}
+
+.logo {
+    height: 3rem;
+    width: 3rem;
+}
+
+.menu ul{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+
+    li {
+        text-decoration: none;
+        list-style: none;
+    }
+
+    a {
+        color: var(--cor-01);
+        transition: 0.5s;   
+    }
+
+    a:hover {
+        color: var(--cor-destaque);
+    }
+}
+
+
+
